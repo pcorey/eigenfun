@@ -22,6 +22,10 @@ function eigenvalues(m) {
     ];
 }
 
+function eigenvectors(m, eigenvalues) {
+    //http://rosettacode.org/wiki/Reduced_row_echelon_form#JavaScript
+};
+
 var c = math.complex(1,2);
 var m = math.matrix([[c.re, -c.im],
                      [c.im,  c.re]]);
